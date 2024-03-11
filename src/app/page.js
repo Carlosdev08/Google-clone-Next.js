@@ -1,9 +1,8 @@
-import React from 'react'
-
-const page = () => {
+import HomeHeader from "googleclon/components/HomeHeader";
+export default function Home() {
   return (
-    <div>page</div>
-  )
+    <>
+      <HomeHeader />
+    </>
+  );
 }
-
-export default page
